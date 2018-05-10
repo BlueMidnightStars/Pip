@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0 auto;
+
+}
+.partont{
+	width: 500px;
+	height: 500px;
+	background-color: #000;
+	position: relative;
+
+}
+.partont .locc{
+	width: 100px;
+	height: 100px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top:-50px;
+	margin-left: -50px;
+	animation:hao 20s infinite;
+}
+@keyframes hao{
+	from {transform:  rotate(90deg);}
+	25% {transform: translate(100px) rotate(0deg);}
+	75% { transform: translateY(100px) rotate(360deg);}
+	to { transform: rotate(300deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
